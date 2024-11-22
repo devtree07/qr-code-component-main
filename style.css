@@ -1,0 +1,84 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.main-container {
+  /*position the main div in the middle*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 812px;
+  padding: 10px;
+  /*position attribution-class div */
+  flex-direction: column;
+}
+
+.container {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  width: 320px;
+}
+
+.qr-container {
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info {
+  padding: 0 16px;
+  align-items: top;
+  width: 256px;
+  text-align: center;
+  margin: 24px auto 0 auto;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+p {
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a:link {
+  color: rgb(153, 195, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(124, 12, 159);
+}
+
+a:hover {
+  color: rgb(0, 119, 255);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(153, 195, 255);
+}
